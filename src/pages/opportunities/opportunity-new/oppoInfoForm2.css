@@ -1,0 +1,24 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: 'black' !important;
+  font-family: Gilroy-Bold;
+  cursor: pointer !important;
+font-size: 12px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: 'black' !important;
+  font-family: Gilroy-Bold;
+font-size: 12px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: 'black' !important;
+  font-family: Gilroy-Bold;
+font-size: 12px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: 'black' !important;
+  font-family: Gilroy-Bold;
+font-size: 12px;
+}
+.click {
+      cursor: "pointer";
+    } 
