@@ -44,50 +44,47 @@ const useStyles = makeStyles( theme => ({
 }));
 
 function Bulletin({
+  formName,
   badge,
   values=[], 
   title = null, 
   onSubmit=()=>{},
   label='BULLETIN',
   description,
+  name, 
+  errors,
+  watch,
+  control,
+  setValue,
+  triggerValidation,
+
+
 }) {
   const classes = useStyles();
-
+  
   const [list, setList] = React.useState(values);
-  const [item, setItem] = useState("");
   const [editingId, setEditingId] = useState(-1);
   const [editingItem, setEditingItem] = useState('');
 
-  const onChange = (e) => {
-    setItem(e.target.value);
-  }
+  const item= list.length? watch(name+'Input') : watch(name);
 
   const onChangeEditing = (e) => {
     setEditingItem(e.target.value);
   }
-
-  const {
-    handleSubmit, errors, control // , watch
-  } = useForm({
-   list,
-   // validationSchema: formSchemas.oppoInfoStep
-  });
-
+  
 
   const onAdd = (data) => {
     data.preventDefault();
-    // console.log('onAdd', data);
-    if(item){
+    if(item && item.length){
       const newList = [ item, ...list ];
       setList(newList);
-      setItem("");
+      setValue(name+'Input', "");
       onSubmit(newList);
     }
     
   };
 
   const onEdit = (id) => {
-    console.log('onEdit', id);
     setEditingId(id);
     setEditingItem(list[id]);
   };
@@ -97,6 +94,7 @@ function Bulletin({
     if(editingItem){
       const newList = [...list.slice(0, editingId), editingItem ,...list.slice(editingId + 1)];
       setList(newList);
+      setValue(name, newList);
       onSubmit(newList);
     }
     setEditingId(-1);
@@ -104,9 +102,9 @@ function Bulletin({
   };
 
   const onDelete = (id) => {
-    console.log('onDelete', id);
     const newList = [...list.slice(0, id),...list.slice(id + 1)];
     setList(newList);
+    setValue(name, newList);
     onSubmit(newList);
   };
 
@@ -127,15 +125,36 @@ function Bulletin({
       {description}
     </Typography>
 
-    <form onSubmit={onAdd}>
-      <Box minWidth="428px">
-        <InputField
-          // id="outlined-multiline-flexible"
+      <Box display={list.length? "block": "none"} 
+      minWidth="428px">
+
+        <Controller
+          as={InputField}
+          control={control}
+          error={getIsError(errors, name+'Input')}
+          helperText={getHelperText(errors, name+'Input')}
+          required
+          name={name+'Input'}
           label={label}
           multiline
           rowsMax="4"
-         value={item}
-          onChange={onChange}
+          variant="outlined"
+        />
+      </Box>
+      <Box display={list.length? "none": "block"} 
+      minWidth="428px">
+
+        <Controller
+          as={InputField}
+          control={control}
+          error={getIsError(errors, name)}
+          helperText={getHelperText(errors, name)}
+          required
+          defaultValue={values}
+          name={name}
+          label={label}
+          multiline
+          rowsMax="4"
           variant="outlined"
         />
       </Box>
@@ -151,13 +170,12 @@ function Bulletin({
           </span>
         </Button>
       </Box>
-    </form>
       <Box minWidth="428px" mt="32px" mb="50px">
         {
           list.map((item, idx) => {
             if(editingId === idx ){
               return(
-                <React.Fragment>
+                <div key={idx}>
                     <Box mt={-4} minWidth="428px">
                       <InputField
                         // id="outlined-multiline-flexible"
@@ -171,7 +189,7 @@ function Bulletin({
                     </Box>
                    <span onClick={onSave} className={classes.edit}> Save </span>
 
-                </React.Fragment>
+                </div>
               );
             }
             else{

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5afed932d374e2d37082b03cd3ba2e56",
+    "revision": "9deb1b82769c279b00a6248f7559723e",
     "url": "https://dmitryvf.github.io/gethired-ai/index.html"
   },
   {
-    "revision": "c6a4beee84a5d3a989e5",
+    "revision": "33df1966cb08ee3a8d05",
     "url": "https://dmitryvf.github.io/gethired-ai/static/css/main.5ccd522a.chunk.css"
   },
   {
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://dmitryvf.github.io/gethired-ai/static/js/9.98b13537.chunk.js"
   },
   {
-    "revision": "c6a4beee84a5d3a989e5",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/main.040f2fda.chunk.js"
+    "revision": "33df1966cb08ee3a8d05",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/main.ea0820df.chunk.js"
   },
   {
     "revision": "2f7af9f73169b2e0e7c8",
