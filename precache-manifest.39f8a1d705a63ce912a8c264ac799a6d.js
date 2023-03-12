@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9deb1b82769c279b00a6248f7559723e",
+    "revision": "5fc70ed8644e89716cdd50f6bf3b25d8",
     "url": "https://dmitryvf.github.io/gethired-ai/index.html"
   },
   {
-    "revision": "33df1966cb08ee3a8d05",
+    "revision": "f28a61f78ead9fb8cac5",
     "url": "https://dmitryvf.github.io/gethired-ai/static/css/main.5ccd522a.chunk.css"
   },
   {
@@ -16,64 +16,64 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://dmitryvf.github.io/gethired-ai/static/js/1.7548f57f.chunk.js"
   },
   {
-    "revision": "47a046c6398e05a4b97b",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/10.5d01771c.chunk.js"
+    "revision": "82518dd433baa57b5806",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/10.1499ef91.chunk.js"
   },
   {
-    "revision": "d8e7d4e6030cc5394aee",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/11.0e9eeeec.chunk.js"
+    "revision": "c2474f3d54f27d71b33a",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/11.dfb1020a.chunk.js"
   },
   {
-    "revision": "463f3055c040ad257c05",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/12.eff3baa4.chunk.js"
+    "revision": "13473e0950d11f579caa",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/12.0f5fbfcf.chunk.js"
   },
   {
-    "revision": "b005f5927a756784e1ee",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/13.4a3a6e91.chunk.js"
+    "revision": "79dc6d3914092f1d6a23",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/13.f8fdc032.chunk.js"
   },
   {
-    "revision": "beb46a864ad04f18954e",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/14.ebaa55bc.chunk.js"
+    "revision": "a85e06b67ab8560e5e70",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/14.0d0373ac.chunk.js"
   },
   {
-    "revision": "3a96fda0f65672274a2f",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/15.84ee63d4.chunk.js"
+    "revision": "de4a8ee05202fdc4a3ba",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/15.022299ff.chunk.js"
   },
   {
-    "revision": "e138b8306dc905c57a2b",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/2.f08b86a4.chunk.js"
+    "revision": "9795fe3cbad925f82872",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/2.aee0979b.chunk.js"
   },
   {
-    "revision": "c5f899347055c35a0b0f",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/5.5f5ca9d5.chunk.js"
+    "revision": "bf198e3cb489f96c74de",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/5.b79e029f.chunk.js"
   },
   {
     "revision": "23d32320bb58f57be709c7001c43e5b7",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/5.5f5ca9d5.chunk.js.LICENSE.txt"
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/5.b79e029f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c27734ded12df3449d5d",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/6.b05f77d5.chunk.js"
+    "revision": "0c69c300f5a24cce6baa",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/6.424c64fc.chunk.js"
   },
   {
-    "revision": "9aeb2c8f8a4ee533f672",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/7.76bdc618.chunk.js"
+    "revision": "19a80f463b27c6966fff",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/7.ae8af804.chunk.js"
   },
   {
-    "revision": "6024e6fc54de1499829f",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/8.84d8cc41.chunk.js"
+    "revision": "7acb0410eac2909b634e",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/8.fcb09c27.chunk.js"
   },
   {
-    "revision": "fa3e7055fd820de785ea",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/9.98b13537.chunk.js"
+    "revision": "db7fc6932833cfa88795",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/9.b125c755.chunk.js"
   },
   {
-    "revision": "33df1966cb08ee3a8d05",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/main.ea0820df.chunk.js"
+    "revision": "f28a61f78ead9fb8cac5",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/main.1b86f67c.chunk.js"
   },
   {
-    "revision": "2f7af9f73169b2e0e7c8",
-    "url": "https://dmitryvf.github.io/gethired-ai/static/js/runtime-main.7bea6d32.js"
+    "revision": "b95b3a16178c0adc0448",
+    "url": "https://dmitryvf.github.io/gethired-ai/static/js/runtime-main.1a1e227f.js"
   },
   {
     "revision": "c6ab369261f5076a25232cdee5441e11",

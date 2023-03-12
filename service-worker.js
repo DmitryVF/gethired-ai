@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://dmitryvf.github.io/gethired-ai/precache-manifest.4c72554ab7da166a7d55ecca52adb447.js"
+  "https://dmitryvf.github.io/gethired-ai/precache-manifest.39f8a1d705a63ce912a8c264ac799a6d.js"
 );
 
 self.addEventListener('message', (event) => {
