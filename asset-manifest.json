@@ -7,8 +7,8 @@
     "static/js/2.f08b86a4.chunk.js": "https://dmitryvf.github.io/gethired-ai/static/js/2.f08b86a4.chunk.js",
     "static/js/2.f08b86a4.chunk.js.map": "https://dmitryvf.github.io/gethired-ai/static/js/2.f08b86a4.chunk.js.map",
     "main.css": "https://dmitryvf.github.io/gethired-ai/static/css/main.5ccd522a.chunk.css",
-    "main.js": "https://dmitryvf.github.io/gethired-ai/static/js/main.040f2fda.chunk.js",
-    "main.js.map": "https://dmitryvf.github.io/gethired-ai/static/js/main.040f2fda.chunk.js.map",
+    "main.js": "https://dmitryvf.github.io/gethired-ai/static/js/main.ea0820df.chunk.js",
+    "main.js.map": "https://dmitryvf.github.io/gethired-ai/static/js/main.ea0820df.chunk.js.map",
     "runtime-main.js": "https://dmitryvf.github.io/gethired-ai/static/js/runtime-main.7bea6d32.js",
     "runtime-main.js.map": "https://dmitryvf.github.io/gethired-ai/static/js/runtime-main.7bea6d32.js.map",
     "static/js/5.5f5ca9d5.chunk.js": "https://dmitryvf.github.io/gethired-ai/static/js/5.5f5ca9d5.chunk.js",
@@ -34,7 +34,7 @@
     "static/js/15.84ee63d4.chunk.js": "https://dmitryvf.github.io/gethired-ai/static/js/15.84ee63d4.chunk.js",
     "static/js/15.84ee63d4.chunk.js.map": "https://dmitryvf.github.io/gethired-ai/static/js/15.84ee63d4.chunk.js.map",
     "index.html": "https://dmitryvf.github.io/gethired-ai/index.html",
-    "precache-manifest.728e43db568ef0d9c7915c111a62fc21.js": "https://dmitryvf.github.io/gethired-ai/precache-manifest.728e43db568ef0d9c7915c111a62fc21.js",
+    "precache-manifest.4c72554ab7da166a7d55ecca52adb447.js": "https://dmitryvf.github.io/gethired-ai/precache-manifest.4c72554ab7da166a7d55ecca52adb447.js",
     "service-worker.js": "https://dmitryvf.github.io/gethired-ai/service-worker.js",
     "static/css/main.5ccd522a.chunk.css.map": "https://dmitryvf.github.io/gethired-ai/static/css/main.5ccd522a.chunk.css.map",
     "static/js/5.5f5ca9d5.chunk.js.LICENSE.txt": "https://dmitryvf.github.io/gethired-ai/static/js/5.5f5ca9d5.chunk.js.LICENSE.txt",
@@ -85,6 +85,6 @@
     "static/js/runtime-main.7bea6d32.js",
     "static/js/5.5f5ca9d5.chunk.js",
     "static/css/main.5ccd522a.chunk.css",
-    "static/js/main.040f2fda.chunk.js"
+    "static/js/main.ea0820df.chunk.js"
   ]
 }
