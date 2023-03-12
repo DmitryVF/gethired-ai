@@ -95,25 +95,25 @@ export const publicRoutes = [
   }
 ];
 
-export const HOME = '/';
-export const APPLICANTS = '/applicants';
-export const APPLICANTS_ALL = '/applicants/all';
-export const APPLICANTS_ACCEPTED = '/applicants/accepted';
-export const APPLICANTS_REJECTED = '/applicants/rejected';
-export const OPPORTUNITY = '/opportunity';
-export const CHATS = '/chats';
-export const OPPORTUNITIES = '/opportunities';
-export const OPPORTUNITY_VIEW = '/opportunity';
+export const HOME = '/gethired-ai/';
+export const APPLICANTS = '/gethired-ai/applicants';
+export const APPLICANTS_ALL = '/gethired-ai/applicants/all';
+export const APPLICANTS_ACCEPTED = '/gethired-ai/applicants/accepted';
+export const APPLICANTS_REJECTED = '/gethired-ai/applicants/rejected';
+export const OPPORTUNITY = '/gethired-ai/opportunity';
+export const CHATS = '/gethired-ai/chats';
+export const OPPORTUNITIES = '/gethired-ai/opportunities';
+export const OPPORTUNITY_VIEW = '/gethired-ai/opportunity';
 export const OPPORTUNITY_CLOSE_SUCCESS = `${OPPORTUNITY_VIEW}/closesuccess`;
-export const APPLICATION_REVIEW = '/application';
-export const APP_ACCEPT_SUCCESS = '/application/applicantacceptsuccess';
-export const APP_REJECT_SUCCESS = '/application/applicantrejectsuccess';
-export const APP_ACCEPTED_VIEW = '/acceptedapplication';
-export const APP_REJECTED_VIEW = '/rejectedapplication';
+export const APPLICATION_REVIEW = '/gethired-ai/application';
+export const APP_ACCEPT_SUCCESS = '/gethired-ai/application/applicantacceptsuccess';
+export const APP_REJECT_SUCCESS = '/gethired-ai/application/applicantrejectsuccess';
+export const APP_ACCEPTED_VIEW = '/gethired-ai/acceptedapplication';
+export const APP_REJECTED_VIEW = '/gethired-ai/rejectedapplication';
 
 
 
-export const NEW_OPP = `/opportunity/new`;
+export const NEW_OPP = `/gethired-ai/opportunity/new`;
 export const NEW_OPP_STEP_2 = `${NEW_OPP}/step-2`;
 export const NEW_OPP_STEP_3 = `${NEW_OPP}/step-3`;
 export const NEW_OPP_STEP_4 = `${NEW_OPP}/step-4`;
@@ -124,9 +124,9 @@ export const NEW_OPP_SUCCESS = `${NEW_OPP}/newsuccess`;
 
 
 
-export const COMPANY = '/company';
-export const TEAM = '/team';
-export const PROFILE = '/profile';
+export const COMPANY = '/gethired-ai/company';
+export const TEAM = '/gethired-ai/team';
+export const PROFILE = '/gethired-ai/profile';
 export const PROFILE_SUCCESS = `${PROFILE}/success`;
 export const ASK_DAVID = `${PROFILE}/ask-david`;
 
@@ -342,5 +342,5 @@ export const privateStatusRoutes = [
     component: ApplicationRejectSuccess
   }
 
-  
+
 ];
